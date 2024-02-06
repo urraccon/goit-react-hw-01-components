@@ -1,0 +1,36 @@
+.stats {
+  margin-top: 1rem;
+
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 0.8rem; */
+  /* overflow: hidden; */
+  /* border-radius: 100px; */
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  background-color: #f3f6f9;
+  /* overflow: hidden; */
+  border-top: 2px solid rgba(128, 128, 128, 0.16);
+  border-left: 2px solid rgba(128, 128, 128, 0.16);
+}
+
+.stats > li:first-of-type {
+  border-left: none;
+}
+
+.label {
+  font-size: 0.8rem;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.quantity {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
