@@ -11,15 +11,15 @@ import items from './Transactions.json';
 export const App = () => {
   return (
     <div className={styles.container}>
-      {/* <Profile
+      <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-      /> */}
-      {/* <Statistics stats={data} /> */}
-      {/* <FriendList friends={friends} /> */}
+      />
+      <Statistics stats={data} />
+      <FriendList friends={friends} />
       <TransactionHistory items={items} />
     </div>
   );
